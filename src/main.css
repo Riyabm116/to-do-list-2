@@ -231,3 +231,19 @@ input:checked ~ .bubble::after {
 	text-decoration: line-through;
 	color: var(--grey);
 }
+.todo-item {
+	transition: all 0.3s ease;
+	margin: 10px 0;
+	padding: 10px;
+	background-color: #f4f4f4;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	cursor: move;
+  }
+  
+  .todo-item.dragging {
+	opacity: 0.5;
+	background-color: #d0e7f9;
+  }
+  
+  
